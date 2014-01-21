@@ -25,10 +25,11 @@
 package main
 
 import (
-	"drmaa"
-	"drmaa/gestatus"
 	"fmt"
 	"time"
+
+	"github.com/janelia-flyem/drmaa"
+	"github.com/janelia-flyem/drmaa/gestatus"
 )
 
 func main() {

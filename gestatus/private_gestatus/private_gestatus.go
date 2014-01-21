@@ -26,13 +26,14 @@ package private_gestatus
    be visible for the user.
 */
 import (
-	"drmaa"
 	"encoding/xml"
 	"fmt"
 	"log"
 	"os/exec"
 	"strconv"
 	"time"
+
+	"github.com/janelia-flyem/drmaa"
 )
 
 var cachedJobStatus = map[string]jobStatusCache{}

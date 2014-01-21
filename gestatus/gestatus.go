@@ -22,10 +22,11 @@
 package gestatus
 
 import (
-	"drmaa"
-	"drmaa/gestatus/private_gestatus"
 	"strings"
 	"time"
+
+	"github.com/janelia-flyem/drmaa"
+	"github.com/janelia-flyem/drmaa/gestatus/private_gestatus"
 )
 
 type ClusterJobs struct {
